@@ -9,7 +9,8 @@ test.each([
     [9, "Fizz"],
     [5, "Buzz"],
     [10,"Buzz"],
-    [20,"Buzz"]
+    [20,"Buzz"],
+    [15,"FizzBuzz"]
 ])('should convert %p to %p', (number, expected) => {
     const result = fizzBuzz(number)
     expect(result).toBe(expected)
