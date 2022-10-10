@@ -5,3 +5,9 @@ test('should convert 1 to "1"', () => {
     const result = fizzBuzz(number)
     expect(result).toBe("1")
 })
+
+test('should convert 2 to "2"', () => {
+    const number = 2
+    const result = fizzBuzz(number)
+    expect(result).toBe("2")
+})
